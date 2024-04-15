@@ -10,6 +10,7 @@ import Project5 from "./screen/Project5";
 import Project6 from "./screen/Project6";
 import Project7 from "./screen/Project7";
 import Project8 from "./screen/Project8";
+import Calculator from "./screen/Caculator";
 
 const Stack = createStackNavigator();
 
@@ -26,6 +27,7 @@ const App = () => {
         <Stack.Screen name="Project6" component={Project6} />
         <Stack.Screen name="Project7" component={Project7} />
         <Stack.Screen name="Project8" component={Project8} />
+        <Stack.Screen name="Caculator" component={Calculator} />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -42,6 +44,7 @@ const HomeScreen = ({ navigation }) => {
       <Button title="Project 6" onPress={() => navigation.navigate('Project6')} />
       <Button title="Project 7" onPress={() => navigation.navigate('Project7')} />
       <Button title="Project 8" onPress={() => navigation.navigate('Project8')} />
+      <Button title="Caculator" onPress={() => navigation.navigate('Caculator')} />
     </SafeAreaView>
   );
 };
