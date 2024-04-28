@@ -44,7 +44,7 @@ const HomeScreen = ({ navigation }) => {
       <Button title="Project 6" onPress={() => navigation.navigate('Project6')} />
       <Button title="Project 7" onPress={() => navigation.navigate('Project7')} />
       <Button title="Project 8" onPress={() => navigation.navigate('Project8')} />
-      <Button title="Caculator" onPress={() => navigation.navigate('Caculator')} />
+      <Button title="Caculatorr" onPress={() => navigation.navigate('Caculator')} />
     </SafeAreaView>
   );
 };
